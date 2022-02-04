@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import InputEnc from './InputEnc';
+
 
 function App() {
   return (
@@ -17,7 +19,16 @@ function App() {
         >
           Learn React
         </a>
+
+
+        <InputEnc/>
       </header>
+      
+     
+      
+      
+      
+
     </div>
   );
 }
