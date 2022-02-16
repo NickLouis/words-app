@@ -8,7 +8,7 @@ import React, { useState } from "react";
 
 function InputEnc(props) {
 
-
+// remeber you can use  {{ to break down props - removing need to use the word}}
   const localApi = "http://localhost:8080/words/"+props.service;
 
   
